@@ -1,0 +1,160 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.portada {
+  width: 100%;
+  height: 600px;
+  background: url("./pp5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .portada {
+    height: 0;
+    width: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .portadacell img {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    position: absolute;
+  }
+}
+
+@media (max-width: 992px) {
+  .portadacell img {
+    position: relative;
+    visibility: visible;
+    width: 100%;
+  }
+}
+
+.mapa {
+  margin: auto;
+  text-align: center;
+}
+
+.informacion {
+  width: 100%;
+  text-align: center;
+}
+
+#navcol-3 a {
+  color: #fff;
+}
+
+.navbar {
+  background: #0090b0;
+}
+
+.iconos {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.iconos svg {
+  font-size: 45px;
+}
+
+@media (max-width: 992px) {
+  .iconos svg {
+    font-size: 30px;
+  }
+}
+
+.forma img {
+  width: 130px;
+}
+
+.photo-gallery p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.botonordenar {
+  background: #ff6b00;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 900;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.botonordenar:hover {
+  background: #dd5f03;
+  color: #fff;
+}
+
+.portada2 img {
+  width: 100%;
+}
+
+.m1 {
+  margin: auto;
+  text-align: center;
+}
+
+.m2 {
+  margin: auto;
+  text-align: center;
+}
+
+.m1 img {
+  width: 80%;
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .m1 img {
+    width: 0px;
+    height: 0;
+    position: absolute;
+  }
+}
+
+.m2 img {
+  width: 80%;
+}
+
+.boton {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.m1cell img {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .m1cell img {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+}
+
